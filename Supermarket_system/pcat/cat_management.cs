@@ -15,5 +15,11 @@ namespace Supermarket_system.pcat
         {
             InitializeComponent();
         }
+
+        private void buttonItem1_Click(object sender, EventArgs e)
+        {
+            add_cat add_cat = new add_cat();
+            add_cat.ShowDialog();
+        }
     }
 }
