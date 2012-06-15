@@ -65,6 +65,14 @@ namespace Supermarket_system
             childForm.MdiParent = this;
             childForm.Show();
         }
+
+        private void buttonItem36_Click(object sender, EventArgs e)
+        {
+            pcat.cat_management cm = new pcat.cat_management();
+            cm.MdiParent = this;
+            cm.Show();
+
+        }
       
     }
 }

@@ -95,6 +95,12 @@
     <Compile Include="customer\customers_management.Designer.cs">
       <DependentUpon>customers_management.cs</DependentUpon>
     </Compile>
+    <Compile Include="pcat\cat_management.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pcat\cat_management.Designer.cs">
+      <DependentUpon>cat_management.cs</DependentUpon>
+    </Compile>
     <Compile Include="supplier\add_supplier.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -144,6 +150,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="customer\customers_management.resx">
       <DependentUpon>customers_management.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pcat\cat_management.resx">
+      <DependentUpon>cat_management.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="supplier\add_supplier.resx">
       <DependentUpon>add_supplier.cs</DependentUpon>
