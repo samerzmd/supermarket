@@ -122,9 +122,9 @@
             // 
             this.textBoxX2.Border.Class = "TextBoxBorder";
             this.textBoxX2.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.textBoxX2.Location = new System.Drawing.Point(40, 178);
+            this.textBoxX2.Location = new System.Drawing.Point(18, 178);
             this.textBoxX2.Name = "textBoxX2";
-            this.textBoxX2.Size = new System.Drawing.Size(142, 20);
+            this.textBoxX2.Size = new System.Drawing.Size(164, 20);
             this.textBoxX2.TabIndex = 4;
             // 
             // textBoxX1
@@ -134,9 +134,9 @@
             // 
             this.textBoxX1.Border.Class = "TextBoxBorder";
             this.textBoxX1.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.textBoxX1.Location = new System.Drawing.Point(40, 134);
+            this.textBoxX1.Location = new System.Drawing.Point(18, 146);
             this.textBoxX1.Name = "textBoxX1";
-            this.textBoxX1.Size = new System.Drawing.Size(142, 20);
+            this.textBoxX1.Size = new System.Drawing.Size(164, 20);
             this.textBoxX1.TabIndex = 3;
             // 
             // labelX2
@@ -148,11 +148,11 @@
             // 
             this.labelX2.BackgroundStyle.Class = "";
             this.labelX2.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX2.Location = new System.Drawing.Point(146, 175);
+            this.labelX2.Location = new System.Drawing.Point(183, 175);
             this.labelX2.Name = "labelX2";
-            this.labelX2.Size = new System.Drawing.Size(75, 23);
+            this.labelX2.Size = new System.Drawing.Size(49, 23);
             this.labelX2.TabIndex = 2;
-            this.labelX2.Text = "الوصف";
+            this.labelX2.Text = "الوصف :";
             // 
             // labelX1
             // 
@@ -163,11 +163,11 @@
             // 
             this.labelX1.BackgroundStyle.Class = "";
             this.labelX1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX1.Location = new System.Drawing.Point(146, 132);
+            this.labelX1.Location = new System.Drawing.Point(183, 146);
             this.labelX1.Name = "labelX1";
-            this.labelX1.Size = new System.Drawing.Size(75, 23);
+            this.labelX1.Size = new System.Drawing.Size(49, 23);
             this.labelX1.TabIndex = 1;
-            this.labelX1.Text = "الاسم";
+            this.labelX1.Text = "الاسم :";
             // 
             // pictureBox1
             // 
@@ -244,9 +244,9 @@
             // 
             this.إدارة_الاصناف.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
             this.إدارة_الاصناف.Controls.Add(this.ribbonBar1);
-            this.إدارة_الاصناف.Location = new System.Drawing.Point(293, 45);
+            this.إدارة_الاصناف.Location = new System.Drawing.Point(318, 188);
             this.إدارة_الاصناف.Name = "إدارة_الاصناف";
-            this.إدارة_الاصناف.Size = new System.Drawing.Size(200, 81);
+            this.إدارة_الاصناف.Size = new System.Drawing.Size(200, 89);
             // 
             // 
             // 

@@ -191,7 +191,7 @@
             // 
             this.labelX3.BackgroundStyle.Class = "";
             this.labelX3.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX3.Location = new System.Drawing.Point(60, 181);
+            this.labelX3.Location = new System.Drawing.Point(128, 184);
             this.labelX3.Name = "labelX3";
             this.labelX3.Size = new System.Drawing.Size(24, 23);
             this.labelX3.TabIndex = 17;
@@ -199,7 +199,7 @@
             // 
             // radSpinEditor1
             // 
-            this.radSpinEditor1.Location = new System.Drawing.Point(90, 184);
+            this.radSpinEditor1.Location = new System.Drawing.Point(158, 184);
             this.radSpinEditor1.Name = "radSpinEditor1";
             // 
             // 
@@ -246,7 +246,7 @@
             // 
             this.textBoxX1.Border.Class = "TextBoxBorder";
             this.textBoxX1.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.textBoxX1.Location = new System.Drawing.Point(3, 144);
+            this.textBoxX1.Location = new System.Drawing.Point(71, 144);
             this.textBoxX1.Name = "textBoxX1";
             this.textBoxX1.Size = new System.Drawing.Size(184, 22);
             this.textBoxX1.TabIndex = 3;

@@ -73,6 +73,12 @@ namespace Supermarket_system
             cm.Show();
 
         }
+
+        private void buttonItem39_Click(object sender, EventArgs e)
+        {
+            products.buy_products buy_pro = new products.buy_products();
+            buy_pro.Show();
+        }
       
     }
 }
