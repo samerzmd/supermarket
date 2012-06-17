@@ -181,7 +181,7 @@
             this.groupPanel1.StyleMouseOver.Class = "";
             this.groupPanel1.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             this.groupPanel1.TabIndex = 8;
-            this.groupPanel1.Text = "تعديل فئة المستخدم";
+            this.groupPanel1.Text = "تعديل فئة الزبون";
             // 
             // labelX3
             // 
@@ -272,7 +272,7 @@
                         | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(90, 3);
+            this.pictureBox1.Location = new System.Drawing.Point(101, 3);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(139, 125);
             this.pictureBox1.TabIndex = 1;
