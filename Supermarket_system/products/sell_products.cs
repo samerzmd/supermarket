@@ -15,5 +15,7 @@ namespace Supermarket_system.products
         {
             InitializeComponent();
         }
+
+
     }
 }
