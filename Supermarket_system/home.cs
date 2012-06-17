@@ -79,6 +79,13 @@ namespace Supermarket_system
             products.buy_products buy_pro = new products.buy_products();
             buy_pro.Show();
         }
+
+        private void buttonItem37_Click(object sender, EventArgs e)
+        {
+            products.product_management pm = new products.product_management();
+            pm.MdiParent = this;
+            pm.Show();
+        }
       
     }
 }

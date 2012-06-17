@@ -9,19 +9,11 @@ using System.Windows.Forms;
 
 namespace Supermarket_system
 {
-    public partial class sys_user : Form
+    public partial class add_sys_user : Form
     {
-        public sys_user()
+        public add_sys_user()
         {
             InitializeComponent();
         }
-
-        private void buttonItem1_Click(object sender, EventArgs e)
-        {
-            add_sys_user add = new add_sys_user();
-            add.ShowDialog();
-        }
-
-
     }
 }
