@@ -86,6 +86,13 @@ namespace Supermarket_system
             pm.MdiParent = this;
             pm.Show();
         }
+
+        private void buttonItem38_Click(object sender, EventArgs e)
+        {
+            products.sell_products sp = new products.sell_products();
+            sp.MdiParent = this;
+            sp.Show();
+        }
       
     }
 }

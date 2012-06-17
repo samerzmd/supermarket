@@ -131,6 +131,12 @@
     <Compile Include="products\product_management.designer.cs">
       <DependentUpon>product_management.cs</DependentUpon>
     </Compile>
+    <Compile Include="products\sell_products.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="products\sell_products.Designer.cs">
+      <DependentUpon>sell_products.cs</DependentUpon>
+    </Compile>
     <Compile Include="supplier\add_supplier.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -198,6 +204,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="products\product_management.resx">
       <DependentUpon>product_management.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="products\sell_products.resx">
+      <DependentUpon>sell_products.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="supplier\add_supplier.resx">
       <DependentUpon>add_supplier.cs</DependentUpon>
