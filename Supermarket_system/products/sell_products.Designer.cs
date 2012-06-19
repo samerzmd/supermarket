@@ -53,6 +53,7 @@
             this.labelX1 = new DevComponents.DotNetBar.LabelX();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.groupPanel2 = new DevComponents.DotNetBar.Controls.GroupPanel();
+            this.buttonX2 = new DevComponents.DotNetBar.ButtonX();
             this.radGroupBox5 = new Telerik.WinControls.UI.RadGroupBox();
             this.labelX16 = new DevComponents.DotNetBar.LabelX();
             this.labelX17 = new DevComponents.DotNetBar.LabelX();
@@ -63,7 +64,6 @@
             this.labelX10 = new DevComponents.DotNetBar.LabelX();
             this.labelX11 = new DevComponents.DotNetBar.LabelX();
             this.labelX12 = new DevComponents.DotNetBar.LabelX();
-            this.buttonX2 = new DevComponents.DotNetBar.ButtonX();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.radGroupBox4)).BeginInit();
@@ -453,6 +453,8 @@
             this.textBoxX2.Name = "textBoxX2";
             this.textBoxX2.Size = new System.Drawing.Size(272, 22);
             this.textBoxX2.TabIndex = 1;
+            this.textBoxX2.Click += new System.EventHandler(this.textBoxX2_Click);
+            this.textBoxX2.TextChanged += new System.EventHandler(this.textBoxX2_TextChanged);
             // 
             // labelX2
             // 
@@ -570,6 +572,17 @@
             this.groupPanel2.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             this.groupPanel2.TabIndex = 3;
             this.groupPanel2.Text = "عملية البيع";
+            // 
+            // buttonX2
+            // 
+            this.buttonX2.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.buttonX2.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.buttonX2.Location = new System.Drawing.Point(3, 5);
+            this.buttonX2.Name = "buttonX2";
+            this.buttonX2.Size = new System.Drawing.Size(75, 78);
+            this.buttonX2.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.buttonX2.TabIndex = 7;
+            this.buttonX2.Text = "بيع";
             // 
             // radGroupBox5
             // 
@@ -721,17 +734,6 @@
             this.labelX12.Size = new System.Drawing.Size(38, 23);
             this.labelX12.TabIndex = 0;
             this.labelX12.Text = "الزبون :";
-            // 
-            // buttonX2
-            // 
-            this.buttonX2.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.buttonX2.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.buttonX2.Location = new System.Drawing.Point(3, 5);
-            this.buttonX2.Name = "buttonX2";
-            this.buttonX2.Size = new System.Drawing.Size(75, 78);
-            this.buttonX2.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.buttonX2.TabIndex = 7;
-            this.buttonX2.Text = "بيع";
             // 
             // sell_products
             // 

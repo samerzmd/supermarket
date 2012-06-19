@@ -16,6 +16,17 @@ namespace Supermarket_system.products
             InitializeComponent();
         }
 
+        private void textBoxX2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBoxX2_Click(object sender, EventArgs e)
+        {
+            products_search search = new products_search();
+            search.ShowDialog();
+        }
+
 
     }
 }
