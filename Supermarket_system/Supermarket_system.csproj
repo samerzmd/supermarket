@@ -107,6 +107,12 @@
     <Compile Include="invoices\customers_invoices.Designer.cs">
       <DependentUpon>customers_invoices.cs</DependentUpon>
     </Compile>
+    <Compile Include="invoices\customer_invoice_item.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="invoices\customer_invoice_item.Designer.cs">
+      <DependentUpon>customer_invoice_item.cs</DependentUpon>
+    </Compile>
     <Compile Include="invoices\supplier_invoices.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -216,6 +222,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="invoices\customers_invoices.resx">
       <DependentUpon>customers_invoices.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="invoices\customer_invoice_item.resx">
+      <DependentUpon>customer_invoice_item.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="invoices\supplier_invoices.resx">
       <DependentUpon>supplier_invoices.cs</DependentUpon>

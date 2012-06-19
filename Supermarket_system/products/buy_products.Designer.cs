@@ -31,9 +31,8 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(buy_products));
             this.formFrameSkinner1 = new Elegant.Ui.FormFrameSkinner();
             this.groupPanel1 = new DevComponents.DotNetBar.Controls.GroupPanel();
-            this.radGroupBox5 = new Telerik.WinControls.UI.RadGroupBox();
-            this.radDropDownList1 = new Telerik.WinControls.UI.RadDropDownList();
-            this.labelX12 = new DevComponents.DotNetBar.LabelX();
+            this.buttonX2 = new DevComponents.DotNetBar.ButtonX();
+            this.buttonX1 = new DevComponents.DotNetBar.ButtonX();
             this.radGroupBox4 = new Telerik.WinControls.UI.RadGroupBox();
             this.textBoxX4 = new DevComponents.DotNetBar.Controls.TextBoxX();
             this.textBoxX3 = new DevComponents.DotNetBar.Controls.TextBoxX();
@@ -62,20 +61,20 @@
             this.labelX2 = new DevComponents.DotNetBar.LabelX();
             this.labelX1 = new DevComponents.DotNetBar.LabelX();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.buttonX1 = new DevComponents.DotNetBar.ButtonX();
-            this.buttonX2 = new DevComponents.DotNetBar.ButtonX();
+            this.radGroupBox5 = new Telerik.WinControls.UI.RadGroupBox();
+            this.radDropDownList1 = new Telerik.WinControls.UI.RadDropDownList();
+            this.labelX12 = new DevComponents.DotNetBar.LabelX();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.groupPanel2 = new DevComponents.DotNetBar.Controls.GroupPanel();
-            this.labelX7 = new DevComponents.DotNetBar.LabelX();
-            this.labelX15 = new DevComponents.DotNetBar.LabelX();
-            this.labelX16 = new DevComponents.DotNetBar.LabelX();
-            this.labelX17 = new DevComponents.DotNetBar.LabelX();
-            this.labelX18 = new DevComponents.DotNetBar.LabelX();
             this.buttonX3 = new DevComponents.DotNetBar.ButtonX();
+            this.switchButton2 = new DevComponents.DotNetBar.Controls.SwitchButton();
+            this.radGroupBox6 = new Telerik.WinControls.UI.RadGroupBox();
+            this.labelX18 = new DevComponents.DotNetBar.LabelX();
+            this.labelX17 = new DevComponents.DotNetBar.LabelX();
+            this.labelX16 = new DevComponents.DotNetBar.LabelX();
+            this.labelX15 = new DevComponents.DotNetBar.LabelX();
+            this.labelX7 = new DevComponents.DotNetBar.LabelX();
             this.groupPanel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.radGroupBox5)).BeginInit();
-            this.radGroupBox5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.radDropDownList1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radGroupBox4)).BeginInit();
             this.radGroupBox4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.radGroupBox3)).BeginInit();
@@ -91,8 +90,13 @@
             this.radGroupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.radSpinEditor2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.radGroupBox5)).BeginInit();
+            this.radGroupBox5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.radDropDownList1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupPanel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.radGroupBox6)).BeginInit();
+            this.radGroupBox6.SuspendLayout();
             this.SuspendLayout();
             // 
             // formFrameSkinner1
@@ -149,54 +153,32 @@
             this.groupPanel1.TabIndex = 1;
             this.groupPanel1.Text = "اضافة الى الفاتورة";
             // 
-            // radGroupBox5
+            // buttonX2
             // 
-            this.radGroupBox5.AccessibleRole = System.Windows.Forms.AccessibleRole.Grouping;
-            this.radGroupBox5.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.radGroupBox5.BackColor = System.Drawing.Color.Transparent;
-            this.radGroupBox5.Controls.Add(this.radDropDownList1);
-            this.radGroupBox5.Controls.Add(this.labelX12);
-            this.radGroupBox5.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radGroupBox5.FooterImageIndex = -1;
-            this.radGroupBox5.FooterImageKey = "";
-            this.radGroupBox5.HeaderAlignment = Telerik.WinControls.UI.HeaderAlignment.Far;
-            this.radGroupBox5.HeaderImageIndex = -1;
-            this.radGroupBox5.HeaderImageKey = "";
-            this.radGroupBox5.HeaderMargin = new System.Windows.Forms.Padding(0);
-            this.radGroupBox5.HeaderText = "المورد";
-            this.radGroupBox5.Location = new System.Drawing.Point(269, 7);
-            this.radGroupBox5.Name = "radGroupBox5";
-            this.radGroupBox5.Padding = new System.Windows.Forms.Padding(2, 18, 2, 2);
+            this.buttonX2.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.buttonX2.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.buttonX2.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonX2.ImagePosition = DevComponents.DotNetBar.eImagePosition.Right;
+            this.buttonX2.Location = new System.Drawing.Point(41, 584);
+            this.buttonX2.Name = "buttonX2";
+            this.buttonX2.Size = new System.Drawing.Size(67, 42);
+            this.buttonX2.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.buttonX2.TabIndex = 25;
+            this.buttonX2.Text = "افراغ الحقول";
             // 
+            // buttonX1
             // 
-            // 
-            this.radGroupBox5.RootElement.Padding = new System.Windows.Forms.Padding(2, 18, 2, 2);
-            this.radGroupBox5.Size = new System.Drawing.Size(262, 70);
-            this.radGroupBox5.TabIndex = 23;
-            this.radGroupBox5.Text = "المورد";
-            // 
-            // radDropDownList1
-            // 
-            this.radDropDownList1.DropDownAnimationEnabled = true;
-            this.radDropDownList1.Location = new System.Drawing.Point(5, 32);
-            this.radDropDownList1.Name = "radDropDownList1";
-            this.radDropDownList1.ShowImageInEditorArea = true;
-            this.radDropDownList1.Size = new System.Drawing.Size(200, 20);
-            this.radDropDownList1.TabIndex = 1;
-            this.radDropDownList1.Text = "radDropDownList1";
-            // 
-            // labelX12
-            // 
-            // 
-            // 
-            // 
-            this.labelX12.BackgroundStyle.Class = "";
-            this.labelX12.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX12.Location = new System.Drawing.Point(211, 29);
-            this.labelX12.Name = "labelX12";
-            this.labelX12.Size = new System.Drawing.Size(46, 23);
-            this.labelX12.TabIndex = 0;
-            this.labelX12.Text = "المورد :";
+            this.buttonX1.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.buttonX1.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.buttonX1.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonX1.Image = ((System.Drawing.Image)(resources.GetObject("buttonX1.Image")));
+            this.buttonX1.ImagePosition = DevComponents.DotNetBar.eImagePosition.Right;
+            this.buttonX1.Location = new System.Drawing.Point(144, 584);
+            this.buttonX1.Name = "buttonX1";
+            this.buttonX1.Size = new System.Drawing.Size(97, 42);
+            this.buttonX1.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.buttonX1.TabIndex = 24;
+            this.buttonX1.Text = "اضافة للفاتورة";
             // 
             // radGroupBox4
             // 
@@ -696,32 +678,54 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // buttonX1
+            // radGroupBox5
             // 
-            this.buttonX1.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.buttonX1.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.buttonX1.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonX1.Image = ((System.Drawing.Image)(resources.GetObject("buttonX1.Image")));
-            this.buttonX1.ImagePosition = DevComponents.DotNetBar.eImagePosition.Right;
-            this.buttonX1.Location = new System.Drawing.Point(144, 584);
-            this.buttonX1.Name = "buttonX1";
-            this.buttonX1.Size = new System.Drawing.Size(97, 42);
-            this.buttonX1.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.buttonX1.TabIndex = 24;
-            this.buttonX1.Text = "اضافة للفاتورة";
+            this.radGroupBox5.AccessibleRole = System.Windows.Forms.AccessibleRole.Grouping;
+            this.radGroupBox5.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.radGroupBox5.BackColor = System.Drawing.Color.Transparent;
+            this.radGroupBox5.Controls.Add(this.radDropDownList1);
+            this.radGroupBox5.Controls.Add(this.labelX12);
+            this.radGroupBox5.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radGroupBox5.FooterImageIndex = -1;
+            this.radGroupBox5.FooterImageKey = "";
+            this.radGroupBox5.HeaderAlignment = Telerik.WinControls.UI.HeaderAlignment.Far;
+            this.radGroupBox5.HeaderImageIndex = -1;
+            this.radGroupBox5.HeaderImageKey = "";
+            this.radGroupBox5.HeaderMargin = new System.Windows.Forms.Padding(0);
+            this.radGroupBox5.HeaderText = "المورد";
+            this.radGroupBox5.Location = new System.Drawing.Point(346, 7);
+            this.radGroupBox5.Name = "radGroupBox5";
+            this.radGroupBox5.Padding = new System.Windows.Forms.Padding(2, 18, 2, 2);
             // 
-            // buttonX2
             // 
-            this.buttonX2.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.buttonX2.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.buttonX2.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonX2.ImagePosition = DevComponents.DotNetBar.eImagePosition.Right;
-            this.buttonX2.Location = new System.Drawing.Point(41, 584);
-            this.buttonX2.Name = "buttonX2";
-            this.buttonX2.Size = new System.Drawing.Size(67, 42);
-            this.buttonX2.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.buttonX2.TabIndex = 25;
-            this.buttonX2.Text = "افراغ الحقول";
+            // 
+            this.radGroupBox5.RootElement.Padding = new System.Windows.Forms.Padding(2, 18, 2, 2);
+            this.radGroupBox5.Size = new System.Drawing.Size(209, 70);
+            this.radGroupBox5.TabIndex = 23;
+            this.radGroupBox5.Text = "المورد";
+            // 
+            // radDropDownList1
+            // 
+            this.radDropDownList1.DropDownAnimationEnabled = true;
+            this.radDropDownList1.Location = new System.Drawing.Point(11, 32);
+            this.radDropDownList1.Name = "radDropDownList1";
+            this.radDropDownList1.ShowImageInEditorArea = true;
+            this.radDropDownList1.Size = new System.Drawing.Size(139, 20);
+            this.radDropDownList1.TabIndex = 1;
+            this.radDropDownList1.Text = "radDropDownList1";
+            // 
+            // labelX12
+            // 
+            // 
+            // 
+            // 
+            this.labelX12.BackgroundStyle.Class = "";
+            this.labelX12.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.labelX12.Location = new System.Drawing.Point(156, 29);
+            this.labelX12.Name = "labelX12";
+            this.labelX12.Size = new System.Drawing.Size(46, 23);
+            this.labelX12.TabIndex = 0;
+            this.labelX12.Text = "المورد :";
             // 
             // dataGridView1
             // 
@@ -730,7 +734,7 @@
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(354, 21);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(532, 535);
+            this.dataGridView1.Size = new System.Drawing.Size(564, 535);
             this.dataGridView1.TabIndex = 2;
             // 
             // groupPanel2
@@ -740,16 +744,17 @@
                         | System.Windows.Forms.AnchorStyles.Right)));
             this.groupPanel2.CanvasColor = System.Drawing.SystemColors.Control;
             this.groupPanel2.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
-            this.groupPanel2.Controls.Add(this.buttonX3);
             this.groupPanel2.Controls.Add(this.labelX18);
             this.groupPanel2.Controls.Add(this.labelX17);
             this.groupPanel2.Controls.Add(this.labelX16);
             this.groupPanel2.Controls.Add(this.labelX15);
             this.groupPanel2.Controls.Add(this.labelX7);
+            this.groupPanel2.Controls.Add(this.radGroupBox6);
+            this.groupPanel2.Controls.Add(this.buttonX3);
             this.groupPanel2.Controls.Add(this.radGroupBox5);
             this.groupPanel2.Location = new System.Drawing.Point(354, 562);
             this.groupPanel2.Name = "groupPanel2";
-            this.groupPanel2.Size = new System.Drawing.Size(540, 107);
+            this.groupPanel2.Size = new System.Drawing.Size(564, 107);
             // 
             // 
             // 
@@ -784,72 +789,57 @@
             this.groupPanel2.TabIndex = 3;
             this.groupPanel2.Text = "بيانات الفاتورة";
             // 
-            // labelX7
+            // buttonX3
             // 
-            this.labelX7.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.labelX7.BackColor = System.Drawing.Color.Transparent;
+            this.buttonX3.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.buttonX3.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.buttonX3.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.buttonX3.Location = new System.Drawing.Point(14, 13);
+            this.buttonX3.Name = "buttonX3";
+            this.buttonX3.Size = new System.Drawing.Size(66, 67);
+            this.buttonX3.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.buttonX3.TabIndex = 2;
+            this.buttonX3.Text = "شراء";
             // 
-            // 
-            // 
-            this.labelX7.BackgroundStyle.Class = "";
-            this.labelX7.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX7.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelX7.Location = new System.Drawing.Point(221, 13);
-            this.labelX7.Name = "labelX7";
-            this.labelX7.Size = new System.Drawing.Size(42, 23);
-            this.labelX7.TabIndex = 21;
-            this.labelX7.Text = "التاريخ :";
-            // 
-            // labelX15
-            // 
-            this.labelX15.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.labelX15.BackColor = System.Drawing.Color.Transparent;
+            // switchButton2
             // 
             // 
             // 
-            this.labelX15.BackgroundStyle.Class = "";
-            this.labelX15.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX15.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelX15.ForeColor = System.Drawing.Color.Red;
-            this.labelX15.Location = new System.Drawing.Point(140, 13);
-            this.labelX15.Name = "labelX15";
-            this.labelX15.Size = new System.Drawing.Size(75, 23);
-            this.labelX15.TabIndex = 24;
-            this.labelX15.Text = "10-12-2012";
-            this.labelX15.Click += new System.EventHandler(this.labelX15_Click);
             // 
-            // labelX16
+            this.switchButton2.BackgroundStyle.Class = "";
+            this.switchButton2.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.switchButton2.Location = new System.Drawing.Point(5, 26);
+            this.switchButton2.Name = "switchButton2";
+            this.switchButton2.OffText = "نقدي";
+            this.switchButton2.OnText = "دين";
+            this.switchButton2.Size = new System.Drawing.Size(66, 22);
+            this.switchButton2.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.switchButton2.TabIndex = 28;
             // 
-            this.labelX16.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.labelX16.BackColor = System.Drawing.Color.Transparent;
+            // radGroupBox6
             // 
-            // 
-            // 
-            this.labelX16.BackgroundStyle.Class = "";
-            this.labelX16.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX16.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelX16.Location = new System.Drawing.Point(169, 42);
-            this.labelX16.Name = "labelX16";
-            this.labelX16.Size = new System.Drawing.Size(94, 23);
-            this.labelX16.TabIndex = 25;
-            this.labelX16.Text = "المبلغ الاجمالي :";
-            // 
-            // labelX17
-            // 
-            this.labelX17.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.labelX17.BackColor = System.Drawing.Color.Transparent;
+            this.radGroupBox6.AccessibleRole = System.Windows.Forms.AccessibleRole.Grouping;
+            this.radGroupBox6.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.radGroupBox6.BackColor = System.Drawing.Color.Transparent;
+            this.radGroupBox6.Controls.Add(this.switchButton2);
+            this.radGroupBox6.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radGroupBox6.FooterImageIndex = -1;
+            this.radGroupBox6.FooterImageKey = "";
+            this.radGroupBox6.HeaderAlignment = Telerik.WinControls.UI.HeaderAlignment.Far;
+            this.radGroupBox6.HeaderImageIndex = -1;
+            this.radGroupBox6.HeaderImageKey = "";
+            this.radGroupBox6.HeaderMargin = new System.Windows.Forms.Padding(0);
+            this.radGroupBox6.HeaderText = "طريقة الدفع";
+            this.radGroupBox6.Location = new System.Drawing.Point(264, 13);
+            this.radGroupBox6.Name = "radGroupBox6";
+            this.radGroupBox6.Padding = new System.Windows.Forms.Padding(2, 18, 2, 2);
             // 
             // 
             // 
-            this.labelX17.BackgroundStyle.Class = "";
-            this.labelX17.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX17.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelX17.ForeColor = System.Drawing.Color.Red;
-            this.labelX17.Location = new System.Drawing.Point(121, 42);
-            this.labelX17.Name = "labelX17";
-            this.labelX17.Size = new System.Drawing.Size(42, 23);
-            this.labelX17.TabIndex = 26;
-            this.labelX17.Text = "2000";
+            this.radGroupBox6.RootElement.Padding = new System.Windows.Forms.Padding(2, 18, 2, 2);
+            this.radGroupBox6.Size = new System.Drawing.Size(76, 64);
+            this.radGroupBox6.TabIndex = 24;
+            this.radGroupBox6.Text = "طريقة الدفع";
             // 
             // labelX18
             // 
@@ -862,29 +852,83 @@
             this.labelX18.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             this.labelX18.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelX18.ForeColor = System.Drawing.Color.Blue;
-            this.labelX18.Location = new System.Drawing.Point(83, 42);
+            this.labelX18.Location = new System.Drawing.Point(81, 22);
             this.labelX18.Name = "labelX18";
             this.labelX18.Size = new System.Drawing.Size(42, 23);
-            this.labelX18.TabIndex = 27;
+            this.labelX18.TabIndex = 32;
             this.labelX18.Text = "شيكل";
             // 
-            // buttonX3
+            // labelX17
             // 
-            this.buttonX3.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.buttonX3.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.buttonX3.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.buttonX3.Location = new System.Drawing.Point(3, 7);
-            this.buttonX3.Name = "buttonX3";
-            this.buttonX3.Size = new System.Drawing.Size(75, 73);
-            this.buttonX3.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.buttonX3.TabIndex = 2;
-            this.buttonX3.Text = "شراء";
+            this.labelX17.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.labelX17.BackColor = System.Drawing.Color.Transparent;
+            // 
+            // 
+            // 
+            this.labelX17.BackgroundStyle.Class = "";
+            this.labelX17.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.labelX17.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelX17.ForeColor = System.Drawing.Color.Red;
+            this.labelX17.Location = new System.Drawing.Point(116, 22);
+            this.labelX17.Name = "labelX17";
+            this.labelX17.Size = new System.Drawing.Size(42, 23);
+            this.labelX17.TabIndex = 31;
+            this.labelX17.Text = "2000";
+            // 
+            // labelX16
+            // 
+            this.labelX16.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.labelX16.BackColor = System.Drawing.Color.Transparent;
+            // 
+            // 
+            // 
+            this.labelX16.BackgroundStyle.Class = "";
+            this.labelX16.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.labelX16.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelX16.Location = new System.Drawing.Point(164, 20);
+            this.labelX16.Name = "labelX16";
+            this.labelX16.Size = new System.Drawing.Size(94, 23);
+            this.labelX16.TabIndex = 30;
+            this.labelX16.Text = "المبلغ الاجمالي :";
+            // 
+            // labelX15
+            // 
+            this.labelX15.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.labelX15.BackColor = System.Drawing.Color.Transparent;
+            // 
+            // 
+            // 
+            this.labelX15.BackgroundStyle.Class = "";
+            this.labelX15.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.labelX15.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelX15.ForeColor = System.Drawing.Color.Red;
+            this.labelX15.Location = new System.Drawing.Point(133, 50);
+            this.labelX15.Name = "labelX15";
+            this.labelX15.Size = new System.Drawing.Size(75, 23);
+            this.labelX15.TabIndex = 29;
+            this.labelX15.Text = "10-12-2012";
+            // 
+            // labelX7
+            // 
+            this.labelX7.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.labelX7.BackColor = System.Drawing.Color.Transparent;
+            // 
+            // 
+            // 
+            this.labelX7.BackgroundStyle.Class = "";
+            this.labelX7.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.labelX7.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelX7.Location = new System.Drawing.Point(214, 50);
+            this.labelX7.Name = "labelX7";
+            this.labelX7.Size = new System.Drawing.Size(42, 23);
+            this.labelX7.TabIndex = 28;
+            this.labelX7.Text = "التاريخ :";
             // 
             // buy_products
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(906, 675);
+            this.ClientSize = new System.Drawing.Size(930, 675);
             this.Controls.Add(this.groupPanel2);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.groupPanel1);
@@ -894,10 +938,6 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "شراء بضائع";
             this.groupPanel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.radGroupBox5)).EndInit();
-            this.radGroupBox5.ResumeLayout(false);
-            this.radGroupBox5.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.radDropDownList1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radGroupBox4)).EndInit();
             this.radGroupBox4.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.radGroupBox3)).EndInit();
@@ -916,8 +956,14 @@
             this.radGroupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.radSpinEditor2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.radGroupBox5)).EndInit();
+            this.radGroupBox5.ResumeLayout(false);
+            this.radGroupBox5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.radDropDownList1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.groupPanel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.radGroupBox6)).EndInit();
+            this.radGroupBox6.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -961,11 +1007,13 @@
         private DevComponents.DotNetBar.ButtonX buttonX1;
         private DevComponents.DotNetBar.Controls.GroupPanel groupPanel2;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private DevComponents.DotNetBar.LabelX labelX15;
-        private DevComponents.DotNetBar.LabelX labelX7;
+        private DevComponents.DotNetBar.ButtonX buttonX3;
+        private DevComponents.DotNetBar.Controls.SwitchButton switchButton2;
         private DevComponents.DotNetBar.LabelX labelX18;
         private DevComponents.DotNetBar.LabelX labelX17;
         private DevComponents.DotNetBar.LabelX labelX16;
-        private DevComponents.DotNetBar.ButtonX buttonX3;
+        private DevComponents.DotNetBar.LabelX labelX15;
+        private DevComponents.DotNetBar.LabelX labelX7;
+        private Telerik.WinControls.UI.RadGroupBox radGroupBox6;
     }
 }
