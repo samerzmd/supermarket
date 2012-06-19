@@ -21,5 +21,10 @@ namespace Supermarket_system.products
             add_product add = new add_product();
             add.ShowDialog();
         }
+
+        private void product_management_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

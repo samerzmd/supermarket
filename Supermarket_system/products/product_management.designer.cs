@@ -64,7 +64,6 @@
             this.ribbonBar1 = new DevComponents.DotNetBar.RibbonBar();
             this.buttonItem1 = new DevComponents.DotNetBar.ButtonItem();
             this.buttonItem2 = new DevComponents.DotNetBar.ButtonItem();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.groupPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.radGroupBox4)).BeginInit();
             this.radGroupBox4.SuspendLayout();
@@ -80,7 +79,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.radSpinEditor2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.إدارة_السلع.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // formFrameSkinner1
@@ -89,18 +87,19 @@
             // 
             // groupPanel1
             // 
+            this.groupPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.groupPanel1.CanvasColor = System.Drawing.SystemColors.Control;
             this.groupPanel1.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
-            this.groupPanel1.Controls.Add(this.pictureBox2);
             this.groupPanel1.Controls.Add(this.buttonX1);
             this.groupPanel1.Controls.Add(this.radGroupBox4);
             this.groupPanel1.Controls.Add(this.radGroupBox3);
             this.groupPanel1.Controls.Add(this.radGroupBox2);
             this.groupPanel1.Controls.Add(this.radGroupBox1);
             this.groupPanel1.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupPanel1.Location = new System.Drawing.Point(5, 19);
+            this.groupPanel1.Location = new System.Drawing.Point(12, 12);
             this.groupPanel1.Name = "groupPanel1";
-            this.groupPanel1.Size = new System.Drawing.Size(351, 678);
+            this.groupPanel1.Size = new System.Drawing.Size(735, 282);
             // 
             // 
             // 
@@ -152,6 +151,7 @@
             // radGroupBox4
             // 
             this.radGroupBox4.AccessibleRole = System.Windows.Forms.AccessibleRole.Grouping;
+            this.radGroupBox4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.radGroupBox4.BackColor = System.Drawing.Color.Transparent;
             this.radGroupBox4.Controls.Add(this.textBoxX5);
             this.radGroupBox4.Controls.Add(this.textBoxX6);
@@ -165,7 +165,7 @@
             this.radGroupBox4.HeaderImageKey = "";
             this.radGroupBox4.HeaderMargin = new System.Windows.Forms.Padding(0);
             this.radGroupBox4.HeaderText = "الباركود";
-            this.radGroupBox4.Location = new System.Drawing.Point(4, 491);
+            this.radGroupBox4.Location = new System.Drawing.Point(383, 152);
             this.radGroupBox4.Name = "radGroupBox4";
             this.radGroupBox4.Padding = new System.Windows.Forms.Padding(2, 18, 2, 2);
             // 
@@ -229,6 +229,7 @@
             // radGroupBox3
             // 
             this.radGroupBox3.AccessibleRole = System.Windows.Forms.AccessibleRole.Grouping;
+            this.radGroupBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.radGroupBox3.BackColor = System.Drawing.Color.Transparent;
             this.radGroupBox3.Controls.Add(this.labelX11);
             this.radGroupBox3.Controls.Add(this.labelX10);
@@ -244,7 +245,7 @@
             this.radGroupBox3.HeaderImageKey = "";
             this.radGroupBox3.HeaderMargin = new System.Windows.Forms.Padding(0);
             this.radGroupBox3.HeaderText = "الاسعار";
-            this.radGroupBox3.Location = new System.Drawing.Point(4, 388);
+            this.radGroupBox3.Location = new System.Drawing.Point(15, 152);
             this.radGroupBox3.Name = "radGroupBox3";
             this.radGroupBox3.Padding = new System.Windows.Forms.Padding(2, 18, 2, 2);
             // 
@@ -338,7 +339,6 @@
             // radGroupBox2
             // 
             this.radGroupBox2.AccessibleRole = System.Windows.Forms.AccessibleRole.Grouping;
-            this.radGroupBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.radGroupBox2.BackColor = System.Drawing.Color.Transparent;
             this.radGroupBox2.Controls.Add(this.radSpinEditor1);
             this.radGroupBox2.Controls.Add(this.switchButton1);
@@ -355,7 +355,7 @@
             this.radGroupBox2.HeaderImageKey = "";
             this.radGroupBox2.HeaderMargin = new System.Windows.Forms.Padding(0);
             this.radGroupBox2.HeaderText = "التاريخ";
-            this.radGroupBox2.Location = new System.Drawing.Point(4, 258);
+            this.radGroupBox2.Location = new System.Drawing.Point(15, 11);
             this.radGroupBox2.Name = "radGroupBox2";
             this.radGroupBox2.Padding = new System.Windows.Forms.Padding(2, 18, 2, 2);
             this.radGroupBox2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
@@ -480,7 +480,7 @@
             this.radGroupBox1.HeaderImageKey = "";
             this.radGroupBox1.HeaderMargin = new System.Windows.Forms.Padding(0);
             this.radGroupBox1.HeaderText = "السلعه";
-            this.radGroupBox1.Location = new System.Drawing.Point(4, 129);
+            this.radGroupBox1.Location = new System.Drawing.Point(383, 11);
             this.radGroupBox1.Name = "radGroupBox1";
             this.radGroupBox1.Padding = new System.Windows.Forms.Padding(2, 18, 2, 2);
             this.radGroupBox1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
@@ -573,19 +573,21 @@
             // 
             // dataGridView1
             // 
+            this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(362, 23);
+            this.dataGridView1.Location = new System.Drawing.Point(12, 312);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(492, 674);
+            this.dataGridView1.Size = new System.Drawing.Size(735, 325);
             this.dataGridView1.TabIndex = 2;
             // 
             // إدارة_السلع
             // 
             this.إدارة_السلع.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
             this.إدارة_السلع.Controls.Add(this.ribbonBar1);
-            this.إدارة_السلع.Location = new System.Drawing.Point(649, 32);
+            this.إدارة_السلع.Location = new System.Drawing.Point(543, 319);
             this.إدارة_السلع.Name = "إدارة_السلع";
-            this.إدارة_السلع.Size = new System.Drawing.Size(200, 100);
+            this.إدارة_السلع.Size = new System.Drawing.Size(186, 92);
             // 
             // 
             // 
@@ -621,9 +623,9 @@
             this.ribbonBar1.Items.AddRange(new DevComponents.DotNetBar.BaseItem[] {
             this.buttonItem1,
             this.buttonItem2});
-            this.ribbonBar1.Location = new System.Drawing.Point(3, 3);
+            this.ribbonBar1.Location = new System.Drawing.Point(15, 13);
             this.ribbonBar1.Name = "ribbonBar1";
-            this.ribbonBar1.Size = new System.Drawing.Size(184, 82);
+            this.ribbonBar1.Size = new System.Drawing.Size(156, 64);
             this.ribbonBar1.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.ribbonBar1.TabIndex = 0;
             this.ribbonBar1.Text = "إدارة السلع";
@@ -651,30 +653,19 @@
             this.buttonItem2.SubItemsExpandWidth = 14;
             this.buttonItem2.Text = "حذف";
             // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(116, 3);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(140, 120);
-            this.pictureBox2.TabIndex = 26;
-            this.pictureBox2.TabStop = false;
-            // 
             // product_management
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(861, 709);
+            this.ClientSize = new System.Drawing.Size(758, 649);
             this.Controls.Add(this.إدارة_السلع);
-            this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.groupPanel1);
+            this.Controls.Add(this.dataGridView1);
             this.Name = "product_management";
             this.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.RightToLeftLayout = true;
             this.Text = "أدارة السلع";
+            this.Load += new System.EventHandler(this.product_management_Load);
             this.groupPanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.radGroupBox4)).EndInit();
             this.radGroupBox4.ResumeLayout(false);
@@ -693,7 +684,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.radSpinEditor2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.إدارة_السلع.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -735,6 +725,5 @@
         private DevComponents.DotNetBar.ButtonItem buttonItem1;
         private DevComponents.DotNetBar.ButtonItem buttonItem2;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }
