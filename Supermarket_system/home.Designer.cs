@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(home));
             DevComponents.DotNetBar.Controls.ClockStyleData clockStyleData1 = new DevComponents.DotNetBar.Controls.ClockStyleData();
             DevComponents.DotNetBar.Controls.ColorData colorData1 = new DevComponents.DotNetBar.Controls.ColorData();
             DevComponents.DotNetBar.Controls.ColorData colorData2 = new DevComponents.DotNetBar.Controls.ColorData();
@@ -41,8 +42,11 @@
             DevComponents.DotNetBar.Controls.ClockHandStyleData clockHandStyleData3 = new DevComponents.DotNetBar.Controls.ClockHandStyleData();
             DevComponents.DotNetBar.Controls.ColorData colorData7 = new DevComponents.DotNetBar.Controls.ColorData();
             DevComponents.DotNetBar.Controls.ColorData colorData8 = new DevComponents.DotNetBar.Controls.ColorData();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(home));
             this.ribbonControl1 = new DevComponents.DotNetBar.RibbonControl();
+            this.ribbonPanel10 = new DevComponents.DotNetBar.RibbonPanel();
+            this.ribbonBar17 = new DevComponents.DotNetBar.RibbonBar();
+            this.buttonItem44 = new DevComponents.DotNetBar.ButtonItem();
+            this.buttonItem45 = new DevComponents.DotNetBar.ButtonItem();
             this.ribbonPanel8 = new DevComponents.DotNetBar.RibbonPanel();
             this.ribbonBar15 = new DevComponents.DotNetBar.RibbonBar();
             this.buttonItem38 = new DevComponents.DotNetBar.ButtonItem();
@@ -103,6 +107,7 @@
             this.ribbonTabItem3 = new DevComponents.DotNetBar.RibbonTabItem();
             this.ribbonTabItem4 = new DevComponents.DotNetBar.RibbonTabItem();
             this.ribbonTabItem5 = new DevComponents.DotNetBar.RibbonTabItem();
+            this.ribbonTabItem10 = new DevComponents.DotNetBar.RibbonTabItem();
             this.ribbonTabItem6 = new DevComponents.DotNetBar.RibbonTabItem();
             this.ribbonTabItem7 = new DevComponents.DotNetBar.RibbonTabItem();
             this.ribbonTabItem8 = new DevComponents.DotNetBar.RibbonTabItem();
@@ -139,12 +144,8 @@
             this.monthCalendarAdv1 = new DevComponents.Editors.DateTimeAdv.MonthCalendarAdv();
             this.expandablePanel1 = new DevComponents.DotNetBar.ExpandablePanel();
             this.analogClockControl1 = new DevComponents.DotNetBar.Controls.AnalogClockControl();
-            this.ribbonTabItem10 = new DevComponents.DotNetBar.RibbonTabItem();
-            this.ribbonPanel10 = new DevComponents.DotNetBar.RibbonPanel();
-            this.ribbonBar17 = new DevComponents.DotNetBar.RibbonBar();
-            this.buttonItem44 = new DevComponents.DotNetBar.ButtonItem();
-            this.buttonItem45 = new DevComponents.DotNetBar.ButtonItem();
             this.ribbonControl1.SuspendLayout();
+            this.ribbonPanel10.SuspendLayout();
             this.ribbonPanel8.SuspendLayout();
             this.ribbonPanel9.SuspendLayout();
             this.ribbonPanel6.SuspendLayout();
@@ -158,7 +159,6 @@
             this.panelEx1.SuspendLayout();
             this.expandablePanel2.SuspendLayout();
             this.expandablePanel1.SuspendLayout();
-            this.ribbonPanel10.SuspendLayout();
             this.SuspendLayout();
             // 
             // ribbonControl1
@@ -226,6 +226,85 @@
             this.ribbonControl1.TabGroupsVisible = true;
             this.ribbonControl1.TabIndex = 4;
             this.ribbonControl1.Text = "نظام السوبرماركت";
+            // 
+            // ribbonPanel10
+            // 
+            this.ribbonPanel10.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.ribbonPanel10.Controls.Add(this.ribbonBar17);
+            this.ribbonPanel10.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ribbonPanel10.Location = new System.Drawing.Point(0, 65);
+            this.ribbonPanel10.Name = "ribbonPanel10";
+            this.ribbonPanel10.Padding = new System.Windows.Forms.Padding(3, 0, 3, 3);
+            this.ribbonPanel10.Size = new System.Drawing.Size(1116, 87);
+            // 
+            // 
+            // 
+            this.ribbonPanel10.Style.Class = "";
+            this.ribbonPanel10.Style.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.ribbonPanel10.StyleMouseDown.Class = "";
+            this.ribbonPanel10.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.ribbonPanel10.StyleMouseOver.Class = "";
+            this.ribbonPanel10.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.ribbonPanel10.TabIndex = 10;
+            // 
+            // ribbonBar17
+            // 
+            this.ribbonBar17.AutoOverflowEnabled = true;
+            // 
+            // 
+            // 
+            this.ribbonBar17.BackgroundMouseOverStyle.Class = "";
+            this.ribbonBar17.BackgroundMouseOverStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.ribbonBar17.BackgroundStyle.Class = "";
+            this.ribbonBar17.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.ribbonBar17.ContainerControlProcessDialogKey = true;
+            this.ribbonBar17.Dock = System.Windows.Forms.DockStyle.Left;
+            this.ribbonBar17.Items.AddRange(new DevComponents.DotNetBar.BaseItem[] {
+            this.buttonItem44,
+            this.buttonItem45});
+            this.ribbonBar17.Location = new System.Drawing.Point(3, 0);
+            this.ribbonBar17.Name = "ribbonBar17";
+            this.ribbonBar17.Size = new System.Drawing.Size(167, 84);
+            this.ribbonBar17.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.ribbonBar17.TabIndex = 0;
+            this.ribbonBar17.Text = "الدفاتر";
+            // 
+            // 
+            // 
+            this.ribbonBar17.TitleStyle.Class = "";
+            this.ribbonBar17.TitleStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.ribbonBar17.TitleStyleMouseOver.Class = "";
+            this.ribbonBar17.TitleStyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // buttonItem44
+            // 
+            this.buttonItem44.Image = ((System.Drawing.Image)(resources.GetObject("buttonItem44.Image")));
+            this.buttonItem44.ImagePaddingHorizontal = 30;
+            this.buttonItem44.ImagePosition = DevComponents.DotNetBar.eImagePosition.Top;
+            this.buttonItem44.Name = "buttonItem44";
+            this.buttonItem44.SubItemsExpandWidth = 14;
+            this.buttonItem44.Text = "ديون الزبائن";
+            // 
+            // buttonItem45
+            // 
+            this.buttonItem45.Image = ((System.Drawing.Image)(resources.GetObject("buttonItem45.Image")));
+            this.buttonItem45.ImagePaddingHorizontal = 40;
+            this.buttonItem45.ImagePosition = DevComponents.DotNetBar.eImagePosition.Top;
+            this.buttonItem45.Name = "buttonItem45";
+            this.buttonItem45.SubItemsExpandWidth = 14;
+            this.buttonItem45.Text = "ديون الموزعين";
             // 
             // ribbonPanel8
             // 
@@ -1360,6 +1439,13 @@
             this.ribbonTabItem5.Panel = this.ribbonPanel5;
             this.ribbonTabItem5.Text = "السلع";
             // 
+            // ribbonTabItem10
+            // 
+            this.ribbonTabItem10.Checked = true;
+            this.ribbonTabItem10.Name = "ribbonTabItem10";
+            this.ribbonTabItem10.Panel = this.ribbonPanel10;
+            this.ribbonTabItem10.Text = "دفتر الديون";
+            // 
             // ribbonTabItem6
             // 
             this.ribbonTabItem6.Name = "ribbonTabItem6";
@@ -1863,92 +1949,6 @@
             this.analogClockControl1.Text = "analogClockControl1";
             this.analogClockControl1.Value = new System.DateTime(2012, 3, 10, 11, 15, 24, 162);
             // 
-            // ribbonTabItem10
-            // 
-            this.ribbonTabItem10.Checked = true;
-            this.ribbonTabItem10.Name = "ribbonTabItem10";
-            this.ribbonTabItem10.Panel = this.ribbonPanel10;
-            this.ribbonTabItem10.Text = "دفتر الديون";
-            // 
-            // ribbonPanel10
-            // 
-            this.ribbonPanel10.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.ribbonPanel10.Controls.Add(this.ribbonBar17);
-            this.ribbonPanel10.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ribbonPanel10.Location = new System.Drawing.Point(0, 65);
-            this.ribbonPanel10.Name = "ribbonPanel10";
-            this.ribbonPanel10.Padding = new System.Windows.Forms.Padding(3, 0, 3, 3);
-            this.ribbonPanel10.Size = new System.Drawing.Size(1116, 87);
-            // 
-            // 
-            // 
-            this.ribbonPanel10.Style.Class = "";
-            this.ribbonPanel10.Style.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // 
-            // 
-            this.ribbonPanel10.StyleMouseDown.Class = "";
-            this.ribbonPanel10.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // 
-            // 
-            this.ribbonPanel10.StyleMouseOver.Class = "";
-            this.ribbonPanel10.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.ribbonPanel10.TabIndex = 10;
-            // 
-            // ribbonBar17
-            // 
-            this.ribbonBar17.AutoOverflowEnabled = true;
-            // 
-            // 
-            // 
-            this.ribbonBar17.BackgroundMouseOverStyle.Class = "";
-            this.ribbonBar17.BackgroundMouseOverStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // 
-            // 
-            this.ribbonBar17.BackgroundStyle.Class = "";
-            this.ribbonBar17.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.ribbonBar17.ContainerControlProcessDialogKey = true;
-            this.ribbonBar17.Dock = System.Windows.Forms.DockStyle.Left;
-            this.ribbonBar17.Items.AddRange(new DevComponents.DotNetBar.BaseItem[] {
-            this.buttonItem44,
-            this.buttonItem45});
-            this.ribbonBar17.Location = new System.Drawing.Point(3, 0);
-            this.ribbonBar17.Name = "ribbonBar17";
-            this.ribbonBar17.Size = new System.Drawing.Size(167, 84);
-            this.ribbonBar17.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.ribbonBar17.TabIndex = 0;
-            this.ribbonBar17.Text = "الدفاتر";
-            // 
-            // 
-            // 
-            this.ribbonBar17.TitleStyle.Class = "";
-            this.ribbonBar17.TitleStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // 
-            // 
-            this.ribbonBar17.TitleStyleMouseOver.Class = "";
-            this.ribbonBar17.TitleStyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // buttonItem44
-            // 
-            this.buttonItem44.Image = ((System.Drawing.Image)(resources.GetObject("buttonItem44.Image")));
-            this.buttonItem44.ImagePaddingHorizontal = 30;
-            this.buttonItem44.ImagePosition = DevComponents.DotNetBar.eImagePosition.Top;
-            this.buttonItem44.Name = "buttonItem44";
-            this.buttonItem44.SubItemsExpandWidth = 14;
-            this.buttonItem44.Text = "ديون الزبائن";
-            // 
-            // buttonItem45
-            // 
-            this.buttonItem45.Image = ((System.Drawing.Image)(resources.GetObject("buttonItem45.Image")));
-            this.buttonItem45.ImagePaddingHorizontal = 40;
-            this.buttonItem45.ImagePosition = DevComponents.DotNetBar.eImagePosition.Top;
-            this.buttonItem45.Name = "buttonItem45";
-            this.buttonItem45.SubItemsExpandWidth = 14;
-            this.buttonItem45.Text = "ديون الموزعين";
-            // 
             // home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1968,6 +1968,7 @@
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.home_FormClosing);
             this.ribbonControl1.ResumeLayout(false);
             this.ribbonControl1.PerformLayout();
+            this.ribbonPanel10.ResumeLayout(false);
             this.ribbonPanel8.ResumeLayout(false);
             this.ribbonPanel9.ResumeLayout(false);
             this.ribbonPanel6.ResumeLayout(false);
@@ -1982,7 +1983,6 @@
             this.expandablePanel2.ResumeLayout(false);
             this.expandablePanel2.PerformLayout();
             this.expandablePanel1.ResumeLayout(false);
-            this.ribbonPanel10.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
