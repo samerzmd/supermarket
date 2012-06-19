@@ -115,10 +115,10 @@
             // 
             this.radDropDownList1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.radDropDownList1.DropDownAnimationEnabled = true;
-            this.radDropDownList1.Location = new System.Drawing.Point(357, 6);
+            this.radDropDownList1.Location = new System.Drawing.Point(353, 6);
             this.radDropDownList1.Name = "radDropDownList1";
             this.radDropDownList1.ShowImageInEditorArea = true;
-            this.radDropDownList1.Size = new System.Drawing.Size(171, 20);
+            this.radDropDownList1.Size = new System.Drawing.Size(175, 20);
             this.radDropDownList1.TabIndex = 1;
             this.radDropDownList1.Text = "radDropDownList1";
             // 
