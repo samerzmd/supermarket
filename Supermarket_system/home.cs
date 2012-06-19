@@ -114,6 +114,13 @@ namespace Supermarket_system
             cd.MdiParent = this;
             cd.Show();
         }
+
+        private void buttonItem45_Click(object sender, EventArgs e)
+        {
+            debit.supplier_debit sd = new debit.supplier_debit();
+            sd.MdiParent = this;
+            sd.Show();
+        }
       
     }
 }

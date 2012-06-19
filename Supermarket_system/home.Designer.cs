@@ -306,6 +306,7 @@
             this.buttonItem45.Name = "buttonItem45";
             this.buttonItem45.SubItemsExpandWidth = 14;
             this.buttonItem45.Text = "ديون الموزعين";
+            this.buttonItem45.Click += new System.EventHandler(this.buttonItem45_Click);
             // 
             // ribbonPanel8
             // 

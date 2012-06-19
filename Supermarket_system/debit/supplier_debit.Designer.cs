@@ -31,12 +31,12 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(supplier_debit));
             this.formFrameSkinner1 = new Elegant.Ui.FormFrameSkinner();
             this.groupPanel1 = new DevComponents.DotNetBar.Controls.GroupPanel();
-            this.labelX1 = new DevComponents.DotNetBar.LabelX();
-            this.radDropDownList1 = new Telerik.WinControls.UI.RadDropDownList();
-            this.labelX2 = new DevComponents.DotNetBar.LabelX();
-            this.labelX3 = new DevComponents.DotNetBar.LabelX();
-            this.labelX4 = new DevComponents.DotNetBar.LabelX();
             this.buttonX1 = new DevComponents.DotNetBar.ButtonX();
+            this.labelX4 = new DevComponents.DotNetBar.LabelX();
+            this.labelX3 = new DevComponents.DotNetBar.LabelX();
+            this.labelX2 = new DevComponents.DotNetBar.LabelX();
+            this.radDropDownList1 = new Telerik.WinControls.UI.RadDropDownList();
+            this.labelX1 = new DevComponents.DotNetBar.LabelX();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.groupPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.radDropDownList1)).BeginInit();
@@ -97,46 +97,33 @@
             this.groupPanel1.TabIndex = 1;
             this.groupPanel1.Text = "بيانات ديون المورد";
             // 
-            // labelX1
+            // buttonX1
             // 
-            this.labelX1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelX1.BackColor = System.Drawing.Color.Transparent;
+            this.buttonX1.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.buttonX1.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.buttonX1.Image = ((System.Drawing.Image)(resources.GetObject("buttonX1.Image")));
+            this.buttonX1.ImagePosition = DevComponents.DotNetBar.eImagePosition.Top;
+            this.buttonX1.Location = new System.Drawing.Point(3, 3);
+            this.buttonX1.Name = "buttonX1";
+            this.buttonX1.Size = new System.Drawing.Size(75, 62);
+            this.buttonX1.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.buttonX1.TabIndex = 5;
+            this.buttonX1.Text = "تسديد";
             // 
+            // labelX4
             // 
-            // 
-            this.labelX1.BackgroundStyle.Class = "";
-            this.labelX1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX1.Location = new System.Drawing.Point(553, 3);
-            this.labelX1.Name = "labelX1";
-            this.labelX1.Size = new System.Drawing.Size(75, 23);
-            this.labelX1.TabIndex = 0;
-            this.labelX1.Text = "اسم المورد :";
-            // 
-            // radDropDownList1
-            // 
-            this.radDropDownList1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.radDropDownList1.DropDownAnimationEnabled = true;
-            this.radDropDownList1.Location = new System.Drawing.Point(377, 3);
-            this.radDropDownList1.Name = "radDropDownList1";
-            this.radDropDownList1.ShowImageInEditorArea = true;
-            this.radDropDownList1.Size = new System.Drawing.Size(170, 20);
-            this.radDropDownList1.TabIndex = 1;
-            this.radDropDownList1.Text = "radDropDownList1";
-            // 
-            // labelX2
-            // 
-            this.labelX2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelX2.BackColor = System.Drawing.Color.Transparent;
+            this.labelX4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.labelX4.BackColor = System.Drawing.Color.Transparent;
             // 
             // 
             // 
-            this.labelX2.BackgroundStyle.Class = "";
-            this.labelX2.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX2.Location = new System.Drawing.Point(480, 32);
-            this.labelX2.Name = "labelX2";
-            this.labelX2.Size = new System.Drawing.Size(148, 23);
-            this.labelX2.TabIndex = 2;
-            this.labelX2.Text = "مجموع الفواتير المستحقة :";
+            this.labelX4.BackgroundStyle.Class = "";
+            this.labelX4.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.labelX4.Location = new System.Drawing.Point(415, 32);
+            this.labelX4.Name = "labelX4";
+            this.labelX4.Size = new System.Drawing.Size(38, 23);
+            this.labelX4.TabIndex = 4;
+            this.labelX4.Text = "شيكل";
             // 
             // labelX3
             // 
@@ -154,33 +141,46 @@
             this.labelX3.TabIndex = 3;
             this.labelX3.Text = "10000";
             // 
-            // labelX4
+            // labelX2
             // 
-            this.labelX4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelX4.BackColor = System.Drawing.Color.Transparent;
+            this.labelX2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.labelX2.BackColor = System.Drawing.Color.Transparent;
             // 
             // 
             // 
-            this.labelX4.BackgroundStyle.Class = "";
-            this.labelX4.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX4.Location = new System.Drawing.Point(415, 32);
-            this.labelX4.Name = "labelX4";
-            this.labelX4.Size = new System.Drawing.Size(38, 23);
-            this.labelX4.TabIndex = 4;
-            this.labelX4.Text = "شيكل";
+            this.labelX2.BackgroundStyle.Class = "";
+            this.labelX2.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.labelX2.Location = new System.Drawing.Point(480, 32);
+            this.labelX2.Name = "labelX2";
+            this.labelX2.Size = new System.Drawing.Size(148, 23);
+            this.labelX2.TabIndex = 2;
+            this.labelX2.Text = "مجموع الفواتير المستحقة :";
             // 
-            // buttonX1
+            // radDropDownList1
             // 
-            this.buttonX1.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.buttonX1.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.buttonX1.Image = ((System.Drawing.Image)(resources.GetObject("buttonX1.Image")));
-            this.buttonX1.ImagePosition = DevComponents.DotNetBar.eImagePosition.Top;
-            this.buttonX1.Location = new System.Drawing.Point(3, 3);
-            this.buttonX1.Name = "buttonX1";
-            this.buttonX1.Size = new System.Drawing.Size(75, 62);
-            this.buttonX1.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.buttonX1.TabIndex = 5;
-            this.buttonX1.Text = "تسديد";
+            this.radDropDownList1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.radDropDownList1.DropDownAnimationEnabled = true;
+            this.radDropDownList1.Location = new System.Drawing.Point(377, 3);
+            this.radDropDownList1.Name = "radDropDownList1";
+            this.radDropDownList1.ShowImageInEditorArea = true;
+            this.radDropDownList1.Size = new System.Drawing.Size(170, 20);
+            this.radDropDownList1.TabIndex = 1;
+            this.radDropDownList1.Text = "radDropDownList1";
+            // 
+            // labelX1
+            // 
+            this.labelX1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.labelX1.BackColor = System.Drawing.Color.Transparent;
+            // 
+            // 
+            // 
+            this.labelX1.BackgroundStyle.Class = "";
+            this.labelX1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.labelX1.Location = new System.Drawing.Point(553, 3);
+            this.labelX1.Name = "labelX1";
+            this.labelX1.Size = new System.Drawing.Size(75, 23);
+            this.labelX1.TabIndex = 0;
+            this.labelX1.Text = "اسم المورد :";
             // 
             // dataGridView1
             // 
