@@ -93,6 +93,20 @@ namespace Supermarket_system
             sp.MdiParent = this;
             sp.Show();
         }
+
+        private void buttonItem40_Click(object sender, EventArgs e)
+        {
+            invoices.supplier_invoices si = new invoices.supplier_invoices();
+            si.MdiParent = this;
+            si.Show();
+        }
+
+        private void buttonItem41_Click(object sender, EventArgs e)
+        {
+            invoices.customers_invoices ci = new invoices.customers_invoices();
+            ci.MdiParent = this;
+            ci.Show();
+        }
       
     }
 }
