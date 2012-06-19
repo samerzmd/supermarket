@@ -107,6 +107,13 @@ namespace Supermarket_system
             ci.MdiParent = this;
             ci.Show();
         }
+
+        private void buttonItem44_Click(object sender, EventArgs e)
+        {
+            debit.customer_debit cd = new debit.customer_debit();
+            cd.MdiParent = this;
+            cd.Show();
+        }
       
     }
 }

@@ -296,6 +296,7 @@
             this.buttonItem44.Name = "buttonItem44";
             this.buttonItem44.SubItemsExpandWidth = 14;
             this.buttonItem44.Text = "ديون الزبائن";
+            this.buttonItem44.Click += new System.EventHandler(this.buttonItem44_Click);
             // 
             // buttonItem45
             // 

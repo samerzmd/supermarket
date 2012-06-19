@@ -232,6 +232,9 @@
     <EmbeddedResource Include="customer\customers_management.resx">
       <DependentUpon>customers_management.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="debit\customer_debit.resx">
+      <DependentUpon>customer_debit.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="invoices\customers_invoices.resx">
       <DependentUpon>customers_invoices.cs</DependentUpon>
     </EmbeddedResource>
